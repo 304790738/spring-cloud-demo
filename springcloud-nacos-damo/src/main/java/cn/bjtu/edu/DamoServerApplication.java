@@ -11,9 +11,6 @@ import org.springframework.core.env.ConfigurableEnvironment;
  *
  * @SpringBootApplication spring boot 启动核心注解
  * @EnableDiscoveryClient 开启Spring Cloud的服务注册与发现，由于这里引入了spring-cloud-starter-alibaba-nacos-discovery模块，所以Spring Cloud Common中定义的那些与服务治理相关的接口将使用Nacos的实现
- * @EnableFeignClients Openfeign 服务调用
- *
- * @author 史绍波
  */
 @Slf4j
 @SpringBootApplication
