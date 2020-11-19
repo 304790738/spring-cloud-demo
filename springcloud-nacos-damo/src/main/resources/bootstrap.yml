@@ -1,0 +1,19 @@
+#-------------------------- 服务端口 -------------------------------#
+server:
+  port: 8111
+#---------------------- Alibaba Nacos 相关配置 ---------------------#
+spring:
+  application:
+    name: springcloud-nacos-damo
+  profiles:
+    active: dev
+  cloud:
+    nacos:
+      discovery:
+        server-addr: http://127.0.0.1:8848
+        namespace: public
+      config:
+        server-addr: http://127.0.0.1:8848
+        file-extension: yml
+        namespace: public
+
