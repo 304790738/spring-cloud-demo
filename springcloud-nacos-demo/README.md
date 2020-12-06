@@ -4,6 +4,8 @@ http://127.0.0.1:8111/swagger-ui.html
 
 http://127.0.0.1:8111/sso/login?account=admin&password=admin
 
+http://127.0.0.1:8111/sso/users?pageSize=10&currentPage=1&field=birthday&min=1971&max=1980
+
 [mongo]
 
 
